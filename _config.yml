@@ -1,0 +1,17 @@
+# GitHub Pages configuration
+title: "Simone Cammarasana"
+description: "Researcher in biomedical image processing, deep learning, and signal processing · CNR-IMATI, Genova"
+url: "https://cammarasana123.github.io"
+baseurl: ""
+permalink: /:title/
+
+# Keep minima as base but all layout is handled by custom _layouts/default.html
+theme: minima
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
